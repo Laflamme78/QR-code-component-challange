@@ -1,6 +1,6 @@
 body {
     font-family: 'outfit', Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 15pt;
     background-color: lightgray;
 }
 
@@ -10,6 +10,7 @@ main {
     min-width: 375px;
     max-width: 20%;
     height: auto;
+    transform: translateY(25%);
     text-align: center;
     background-color: white;
     border-radius: 5%;
@@ -17,12 +18,18 @@ main {
 
 h1 {
     color: hsl(228, 44%, 22%);
+    font-size: 20pt;
     font-weight: 700;
 }
 
-p {
+.line2 {
     color: hsl(220, 15%, 55%);
+    font-size: 14pt;
     font-weight: 400;
+}
+
+footer {
+    transform: translateY(1100%);
 }
 
 .container {
