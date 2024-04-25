@@ -1,0 +1,45 @@
+body {
+    font-family: 'outfit', Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: lightgray;
+}
+
+main {
+    margin: auto;
+    padding: 1em 0;
+    min-width: 375px;
+    max-width: 20%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 5%;
+}
+
+h1 {
+    color: hsl(228, 44%, 22%);
+    font-weight: 700;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+
+.container {
+    margin: auto;
+}
+
+.qr_code {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
